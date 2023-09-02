@@ -1,22 +1,35 @@
 print('=' *20)
 print('BANCO CEV')
 print('=' *20)
-cinq = 0
-vinte = 0
-dez = 0
-cinco = 0
-um = 0
-valor = int(input('Qual valor você quer sacar? '))
-while True:  
-    if valor % 50 == 0:
-        cinq += 1
-    elif valor % 20:
-        vinte += 1
-    elif valor % 10:
-        dez += 1
-    elif valor % 5 == 0:
-        cinco += 1
+
+ced = 50
+saque = float(input('Qual o valor do seu saque? '))
+contagem_ced = 0
+total = saque
+
+
+while True:
+    if total >= ced:
+        total -= ced
+        contagem_ced += 1
     else:
-        um += 1
-print()
+        if contagem_ced > 0:
+            print(f'{contagem_ced} cédulas de {ced}')
+        elif ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 1
+        contagem_ced = 0
+        if total == 0:
+            break
+        
+            
+            
+        
+
+
+            
+
         
