@@ -6,10 +6,13 @@ sexo = ' '
 while True:
     print('-=' *20)
     print('CADASTRE UMA PESSOA')
+
     idade = int(input('Idade: '))
+    
     sexo = str(input('Sexo:[M/F] ')).strip().upper()
     while sexo not in 'MF':
         sexo = str(input('Sexo:[M/F] ')).strip().upper()
+
     escolha = str(input('Você quer continuar? [S/N] ')).strip().upper()
     while escolha not in 'SN':
         escolha = str(input('Você quer continuar? [S/N] ')).strip().upper()
