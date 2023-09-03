@@ -16,3 +16,6 @@ else:
 print(f'Foram digitados {len(lista)} números!')
 lista.sort(reverse=True)
 print(f'Os valores em ordem decrescente são: {lista}')
+
+
+

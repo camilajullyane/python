@@ -9,5 +9,6 @@ while True:
 
     escolha = input('Quer continuar? [S/N] ').strip().upper()
     if escolha == 'N':
+        lista.sort()
         print(f'Você digitou os valores {lista}')
         break

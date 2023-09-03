@@ -1,4 +1,4 @@
-lista = []
+'''lista = []
 maior = menor = 0
 for j in range(0, 5):
     lista.append(int(input(f'Digite um valor para a posição {j}: ')))
@@ -23,4 +23,20 @@ for i, v in enumerate(lista):
         print(f'{i}... ', end='')
 print()
 
+'''
 
+lista = []
+for c in range(5):
+    lista.append(int(input('Digite um valor: ')))
+
+
+print(f'\nO maior valor da lista foi {max(lista)} nas posições', end=' ')
+for c, v in enumerate(lista):
+    if v == max(lista):
+        print(f'{c}', end=' ')
+
+
+print(f'\nO menor valor da lista foi {min(lista)} nas posições ', end=' ')
+for c, v in enumerate(lista):
+    if v == min(lista):
+        print(f'{c}', end=' ')
