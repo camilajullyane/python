@@ -16,6 +16,8 @@ for linha in range(3):
 
         if coluna == 2:
             soma_col += matriz[linha][coluna]
+        
+            
 
 for c, v in enumerate(matriz):
     if c == 1:
