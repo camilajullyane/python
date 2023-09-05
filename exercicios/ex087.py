@@ -3,7 +3,7 @@ cont = 0
 soma = 0
 soma_col = 0
 
-maior = menor = 0
+maior = 0
 
 for linha in range(3):
     matriz.append([])
@@ -19,19 +19,14 @@ for linha in range(3):
         
             
 
-for c, v in enumerate(matriz):
-    if c == 1:
-        maior = v[0]
-    elif maior < v[1]:
-        maior = v[1]
-    elif maior < v[2]:
-        maior = v[2]
+        if coluna == 2:
+            maior = (max(matriz[linha]))
 
 for c in matriz:
     for i in c:
         print(f'[ {i} ]', end='')
-    print('\n')
+    print()
 
 print(soma)
 print(soma_col)
-print(f'O maior valor da segunda linha foi {maior}')
+print(f'O maior valor da coluna 2 foi {maior}')
