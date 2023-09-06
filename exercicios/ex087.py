@@ -17,10 +17,8 @@ for linha in range(3):
         if coluna == 2:
             soma_col += matriz[linha][coluna]
         
-            
-
-        if coluna == 2:
-            maior = (max(matriz[linha]))
+        if linha == 1:
+            maior = (max(matriz[1]))
 
 for c in matriz:
     for i in c:
@@ -29,4 +27,4 @@ for c in matriz:
 
 print(soma)
 print(soma_col)
-print(f'O maior valor da coluna 2 foi {maior}')
+print(f'O maior valor da segunda linha foi {maior}')
