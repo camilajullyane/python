@@ -1,9 +1,4 @@
-# USANDO TUPLAS
+lista = [1, 4 , 5 , 7, 8]
 
-lanche = ('hamburguer','suco', 'pizza', 'pudim')
-
-for c in range(0, len(lanche)):
-    print(lanche[c], end= ' ')
-
-'''for c in lanche:
-    print(c, end= ' ')'''
+for c, v in enumerate(lista):
+    print(f'Na chave {c} tem o valor {v}')
