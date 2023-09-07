@@ -1,5 +1,6 @@
 from random import randint
 from time import sleep
+
 def inteiroAleatorio(qtd, comeco, fim):
     for c in range(qtd):
         num = randint(comeco, fim)
