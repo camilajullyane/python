@@ -15,7 +15,6 @@ def maior(*numeros):
     
 
 
-
 maior(2, 6, 7, 8, 4)
 maior(1,2,3)
 maior(6)

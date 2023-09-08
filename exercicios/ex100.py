@@ -21,3 +21,5 @@ sorteia()
 
 somaPar(numeros)
 print(f'\nSomando os valores pares de {numeros}, temos {soma}')
+
+
