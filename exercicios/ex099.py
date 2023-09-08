@@ -1,11 +1,11 @@
 from time import sleep
 def maior(*numeros):
     cont = 0
-    maior = 0
-    
+   
     print('-='* 30)
     print('Analisando valores passados...')
     for n in numeros:
+        maior = numeros[0]
         cont += 1
         print(n, end=' ')
         if n > maior:
@@ -18,4 +18,4 @@ def maior(*numeros):
 maior(2, 6, 7, 8, 4)
 maior(1,2,3)
 maior(6)
-maior()
+maior(-1 , -2, -3)
