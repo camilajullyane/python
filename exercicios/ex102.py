@@ -12,3 +12,4 @@ numero = int(input('Digite um número: '))
 
 #PROGRAMA PRINCIPAL
 print(fatorial(numero))
+
