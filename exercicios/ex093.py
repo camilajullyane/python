@@ -13,6 +13,7 @@ for c in range(partidas):
 dicionario['gols'] = pontuacao[:]
 dicionario['total'] = total
 
+
 print('-='*30)
 for k, v in dicionario.items():
     print(f'O campo {k} tem o valor de {v}')
